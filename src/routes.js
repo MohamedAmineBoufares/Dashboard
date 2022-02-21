@@ -28,13 +28,7 @@ const dashboardRoutes = [
     component: TableList,
     layout: "/admin",
   },
-  {
-    path: "/typography",
-    name: "Typography",
-    icon: "nc-icon nc-paper-2",
-    component: Typography,
-    layout: "/admin",
-  },
+
   {
     path: "/icons",
     name: "Icons",
@@ -42,13 +36,7 @@ const dashboardRoutes = [
     component: Icons,
     layout: "/admin",
   },
-  {
-    path: "/maps",
-    name: "Maps",
-    icon: "nc-icon nc-pin-3",
-    component: Maps,
-    layout: "/admin",
-  },
+
   {
     path: "/notifications",
     name: "Notifications",
